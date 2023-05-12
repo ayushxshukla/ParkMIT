@@ -104,7 +104,8 @@ const App = () => {
          Confirm Parking
         </button>
       </form>
-        {!formVisible&&"Made For IOT Mini Project 😇"}
+       
+        {!formVisible&&<h3>Made For IOT Mini Project 😇</h3>}
       
 
       <ToastContainer toastStyle={{ backgroundColor: "ff82b7" }} />
